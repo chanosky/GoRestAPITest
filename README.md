@@ -1,6 +1,8 @@
 
 # API Automation Test for Go Rest API
 
+github flow sample
+
 *This is a robust and maintainable API testing framework built using **Rest Assured**. It is designed to ensure the reliability and functionality of RESTful services while incorporating best practices and advanced features to streamline testing and improve reporting.*
 
 ---

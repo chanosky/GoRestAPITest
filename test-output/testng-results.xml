@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-28T10:54:05 PST" name="Default suite" finished-at="2025-01-28T10:54:09 PST" duration-ms="3299">
+    <groups>
+      <group name="alltests">
+        <method signature="GoRestAPIUpdateUserTests.TC10UpdateExistingUserWithStatusMoreThan200Char()[pri:0, instance:Tests.GoRestAPIUpdateUserTests@3571b748]" name="TC10UpdateExistingUserWithStatusMoreThan200Char" class="Tests.GoRestAPIUpdateUserTests"/>
+      </group> <!-- alltests -->
+      <group name="negative">
+        <method signature="GoRestAPIUpdateUserTests.TC10UpdateExistingUserWithStatusMoreThan200Char()[pri:0, instance:Tests.GoRestAPIUpdateUserTests@3571b748]" name="TC10UpdateExistingUserWithStatusMoreThan200Char" class="Tests.GoRestAPIUpdateUserTests"/>
+      </group> <!-- negative -->
+      <group name="update">
+        <method signature="GoRestAPIUpdateUserTests.TC10UpdateExistingUserWithStatusMoreThan200Char()[pri:0, instance:Tests.GoRestAPIUpdateUserTests@3571b748]" name="TC10UpdateExistingUserWithStatusMoreThan200Char" class="Tests.GoRestAPIUpdateUserTests"/>
+      </group> <!-- update -->
+    </groups>
+    <test started-at="2025-01-28T10:54:05 PST" name="Default test" finished-at="2025-01-28T10:54:09 PST" duration-ms="3299">
+      <class name="Tests.GoRestAPIUpdateUserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.GoRestAPIUpdateUserTests@3571b748]" started-at="2025-01-28T10:54:05 PST" name="setup" finished-at="2025-01-28T10:54:07 PST" duration-ms="2025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC10UpdateExistingUserWithStatusMoreThan200Char()[pri:0, instance:Tests.GoRestAPIUpdateUserTests@3571b748]" started-at="2025-01-28T10:54:07 PST" name="TC10UpdateExistingUserWithStatusMoreThan200Char" finished-at="2025-01-28T10:54:08 PST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10UpdateExistingUserWithStatusMoreThan200Char -->
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:Tests.GoRestAPIUpdateUserTests@3571b748]" started-at="2025-01-28T10:54:08 PST" name="deleteUser" finished-at="2025-01-28T10:54:09 PST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- Tests.GoRestAPIUpdateUserTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

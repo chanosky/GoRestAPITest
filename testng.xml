@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Go Rest API Suite">
+	<listeners>
+		<listener class-name="Listeners.TestNGListener" />
+	</listeners>
+
+	<test name="GoRest API Tests">
+		<groups>
+			<run>
+				<include name="negative" />
+				<include name="positive" />
+				<include name="get" />
+				<include name="update" />
+				<include name="create" />
+				<include name="delete" />
+				<include name="alltests" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Tests.GoRestAPIGetUserTests" />
+			<class name="Tests.GoRestAPICreateUserTests" />
+			<class name="Tests.GoRestAPIDeleteUserTests" />
+			<class name="Tests.GoRestAPIUpdateUserTests" />
+		</classes>
+	</test>
+</suite>

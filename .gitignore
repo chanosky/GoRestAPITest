@@ -8,3 +8,4 @@ dependency-reduced-pom.xml
 test-output/Default suite/
 .project
 .classpath
+bin/
